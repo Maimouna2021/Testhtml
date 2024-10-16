@@ -1,0 +1,22 @@
+.menu{
+     display: flex;
+     justify-content: space-around;
+     background-color: pink;  
+}
+.menu ul{
+     display: flex;
+}
+.menu ul li{
+     padding: 12px;
+     list-style: none;
+}
+.menu ul li a{
+     text-decoration: none;
+     color: #ac52b6;
+     font-size: 1.2rem;
+}
+.menu ul li a:hover {
+     color: red;
+     background-color: blueviolet;
+}
+
